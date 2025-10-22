@@ -10,7 +10,7 @@ import {
   MorphingDialogClose,
   MorphingDialogContainer,
 } from '@/components/ui/morphing-dialog'
-import Link from 'next/link'
+import Image from 'next/image'
 import { AnimatedBackground } from '@/components/ui/animated-background'
 import {
   PROJECTS,
@@ -39,11 +39,12 @@ const TRANSITION_SECTION = {
   duration: 0.3,
 }
 
-type ProjectVideoProps = {
+type ProjectImageProps = {
   src: string
+  alt: string
 }
 
-function ProjectVideo({ src }: ProjectVideoProps) {
+function ProjectImage({ src, alt }: ProjectImageProps) {
   return (
     <MorphingDialog
       transition={{
@@ -53,22 +54,28 @@ function ProjectVideo({ src }: ProjectVideoProps) {
       }}
     >
       <MorphingDialogTrigger>
-        <video
+        <Image
           src={src}
-          autoPlay
-          loop
-          muted
-          className="aspect-video w-full cursor-zoom-in rounded-xl"
+          alt={alt}
+          width={1920}
+          height={1080}
+          className="aspect-video w-full cursor-zoom-in rounded-xl object-cover"
         />
       </MorphingDialogTrigger>
       <MorphingDialogContainer>
-        <MorphingDialogContent className="relative aspect-video rounded-2xl bg-zinc-50 p-1 ring-1 ring-zinc-200/50 ring-inset dark:bg-zinc-950 dark:ring-zinc-800/50">
-          <video
+        <MorphingDialogContent className="relative rounded-2xl bg-zinc-50 p-1 ring-1 ring-zinc-200/50 ring-inset dark:bg-zinc-950 dark:ring-zinc-800/50">
+          <Image
             src={src}
-            autoPlay
-            loop
-            muted
-            className="aspect-video h-[50vh] w-full rounded-xl md:h-[70vh]"
+            alt={alt}
+            width={1920}
+            height={1080}
+            className="rounded-xl object-contain"
+            style={{ 
+              width: 'auto', 
+              height: '70vh', 
+              maxWidth: '90vw',
+              aspectRatio: '1920/1080'
+            }}
           />
         </MorphingDialogContent>
         <MorphingDialogClose
@@ -151,7 +158,7 @@ export default function Personal() {
           {PROJECTS.map((project) => (
             <div key={project.name} className="space-y-2">
               <div className="relative rounded-2xl bg-zinc-50/40 p-1 ring-1 ring-zinc-200/50 ring-inset dark:bg-zinc-950/40 dark:ring-zinc-800/50">
-                <ProjectVideo src={project.video} />
+                <ProjectImage src={project.image} alt={project.name} />
               </div>
               <div className="px-1">
                 <a
