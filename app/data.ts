@@ -32,7 +32,7 @@ export const PROJECTS: Project[] = [
   {
     name: 'W2C AI',
     description:
-      'description here',
+      'AI-powered product discovery platform for Asian fashion, with integrated Reddit reviews',
     link: 'https://www.w2cai.com/',
     image:
       'https://i.imgur.com/RnLQkFz.png',
