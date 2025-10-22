@@ -48,7 +48,7 @@ export const WORK_EXPERIENCE: Experience[] = [
     title: 'Software & Data Engineer (Contract)',
     start: 'August 2025',
     end: 'Present',
-    link: '',
+    link: 'https://sjmusart.org',
     id: 'work4',
   },
   {
@@ -56,7 +56,7 @@ export const WORK_EXPERIENCE: Experience[] = [
     title: 'Software Engineer (Contract)',
     start: 'August 2025',
     end: 'Present',
-    link: '',
+    link: 'https://gonga.ai',
     id: 'work3',
   },
   {
@@ -64,7 +64,7 @@ export const WORK_EXPERIENCE: Experience[] = [
     title: 'Technology Strategy Consultant (Contract)',
     start: 'January 2025',
     end: 'April 2025',
-    link: '',
+    link: 'https://tech.walmart.com',
     id: 'work2',
   },
   {
@@ -72,7 +72,7 @@ export const WORK_EXPERIENCE: Experience[] = [
     title: 'Strategy Intern',
     start: 'December 2024',
     end: 'May 2025',
-    link: '',
+    link: 'https://www.greybeam.ai',
     id: 'work1',
   },
 ]
