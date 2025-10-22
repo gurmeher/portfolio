@@ -3,6 +3,7 @@ type Project = {
   description: string
   link: string
   image: string
+  technologies?: string
   id: string
 }
 
@@ -35,6 +36,7 @@ export const PROJECTS: Project[] = [
     link: 'https://www.w2cai.com/',
     image:
       'https://i.imgur.com/RnLQkFz.png',
+    technologies: 'PostgreSQL, BeautifulSoup, ChatGPT, React, Next.js, Tailwind CSS, TypeScript, Python',
     id: 'project1',
   },
   

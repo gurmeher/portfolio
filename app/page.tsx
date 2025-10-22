@@ -143,8 +143,8 @@ export default function Personal() {
         transition={TRANSITION_SECTION}
       >
         <div className="flex-1">
-          <p className="text-zinc-600 dark:text-zinc-400">
-            Interested in SWE, Machine Learning, Quant, and Startups. Actively seeking internship opportunities in these areas for Spring and Summer 2026!
+          <p className="text-zinc-900 dark:text-zinc-100 text-md">
+          Interested in SWE, Data, AI, and Startups. Actively seeking internship opportunities in these areas for Spring and Summer 2026!
           </p>
         </div>
       </motion.section>
@@ -162,13 +162,18 @@ export default function Personal() {
               </div>
               <div className="px-1">
                 <a
-                  className="font-base group relative inline-block font-[450] text-zinc-900 dark:text-zinc-50"
+                  className="font-base group relative inline-block font-[450] text-zinc-900 dark:text-zinc-50 font-bold"
                   href={project.link}
                   target="_blank"
                 >
                   {project.name}
                   <span className="absolute bottom-0.5 left-0 block h-[1px] w-full max-w-0 bg-zinc-900 dark:bg-zinc-50 transition-all duration-200 group-hover:max-w-full"></span>
                 </a>
+                {project.technologies && (
+                  <p className="text-sm text-zinc-900 dark:text-zinc-200">
+                    {project.technologies}
+                  </p>
+                )}
                 <p className="text-base text-zinc-600 dark:text-zinc-400">
                   {project.description}
                 </p>
