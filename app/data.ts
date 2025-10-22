@@ -76,4 +76,4 @@ export const SOCIAL_LINKS: SocialLink[] = [
   },
 ]
 
-export const EMAIL = 'gurmeher AT berkeley DOT edu'
+export const EMAIL = 'gurmeher [at] berkeley [dot] edu'

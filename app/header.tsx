@@ -9,7 +9,7 @@ export function Header() {
       <div className="flex items-center gap-4">
         <div className="relative h-16 w-16 flex-shrink-0">
           <Image
-            src="/profile-photo.jpeg"
+            src="/profile-photo.png"
             alt="Gurmeher Bhasin"
             width={64}
             height={64}
