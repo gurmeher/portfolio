@@ -44,11 +44,35 @@ export const PROJECTS: Project[] = [
 
 export const WORK_EXPERIENCE: Experience[] = [
   {
-    company: 'Company Industries',
-    title: 'Founder',
-    start: '2024',
+    company: 'San Jose Museum of Art',
+    title: 'Software & Data Engineer (Contract)',
+    start: 'August 2025',
     end: 'Present',
-    link: 'https://google.com',
+    link: '',
+    id: 'work4',
+  },
+  {
+    company: 'Gonga AI (Construction AI Startup)',
+    title: 'Software (Contract)',
+    start: 'August 2025',
+    end: 'Present',
+    link: '',
+    id: 'work3',
+  },
+  {
+    company: 'Walmart (Walmart Global Tech)',
+    title: 'Technology Strategy Consultant (Contract)',
+    start: 'January 2025',
+    end: 'April 2025',
+    link: '',
+    id: 'work2',
+  },
+  {
+    company: 'Greybeam (Data Infrastructure Startup)',
+    title: 'Strategy Intern',
+    start: 'December 2024',
+    end: 'May 2025',
+    link: '',
     id: 'work1',
   },
 ]
