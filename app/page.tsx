@@ -137,7 +137,7 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-            Lorem Ipsum -description here-
+            Interested in SWE, Machine Learning, Quant, and Startups. Actively seeking internship opportunities in these areas for Spring and Summer 2026!
           </p>
         </div>
       </motion.section>
