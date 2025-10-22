@@ -205,10 +205,10 @@ export default function Personal() {
                 <div className="relative flex w-full flex-row justify-between">
                   <div>
                     <h4 className="font-normal dark:text-zinc-100">
-                      {job.title}
+                      {job.company}
                     </h4>
                     <p className="text-zinc-500 dark:text-zinc-400">
-                      {job.company}
+                      {job.title}
                     </p>
                   </div>
                   <p className="text-zinc-600 dark:text-zinc-400">

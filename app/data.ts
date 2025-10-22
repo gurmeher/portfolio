@@ -52,15 +52,15 @@ export const WORK_EXPERIENCE: Experience[] = [
     id: 'work4',
   },
   {
-    company: 'Gonga AI (Construction AI Startup)',
-    title: 'Software (Contract)',
+    company: 'Gonga AI',
+    title: 'Software Engineer (Contract)',
     start: 'August 2025',
     end: 'Present',
     link: '',
     id: 'work3',
   },
   {
-    company: 'Walmart (Walmart Global Tech)',
+    company: 'Walmart',
     title: 'Technology Strategy Consultant (Contract)',
     start: 'January 2025',
     end: 'April 2025',
@@ -68,7 +68,7 @@ export const WORK_EXPERIENCE: Experience[] = [
     id: 'work2',
   },
   {
-    company: 'Greybeam (Data Infrastructure Startup)',
+    company: 'Greybeam',
     title: 'Strategy Intern',
     start: 'December 2024',
     end: 'May 2025',
