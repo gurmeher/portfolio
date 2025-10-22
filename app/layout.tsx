@@ -19,7 +19,18 @@ export const metadata: Metadata = {
     default: 'Gurmeher Bhasin',
     template: '%s | Gurmeher Bhasin'
   },
-  description:  '',
+  description: 'Computer Science, Data Science @ UC Berkeley',
+  openGraph: {
+    title: 'Gurmeher Bhasin',
+    description: 'Computer Science, Data Science @ UC Berkeley',
+    images: ['/cover.png'],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Gurmeher Bhasin',
+    description: 'Computer Science, Data Science @ UC Berkeley',
+    images: ['/cover.png'],
+  },
 };
 
 const geist = Geist({
