@@ -145,6 +145,9 @@ export default function Personal() {
         <div className="flex-1">
           <p className="text-zinc-900 dark:text-zinc-100 text-md">
           Interested in SWE, Data, AI, and Startups. Actively seeking internship opportunities in these areas for Spring and Summer 2026!
+          <br /><br />Outside of tech, I'm a swimmer and a new cyclist (just got a road bike!), with an eventual goal of completing a half Ironman.
+          I'm also a big reader, some recent ones including <em>Steve Jobs</em>, <em>Zero to One: Notes on Startups...</em>, and <em>The Psychology of Money</em>.
+          As a big car enthusiast, I love working on and driving cars (Nerdy fun fact: I keep a list of every car I've driven — currently at 32!), and talking about anything automotive.
           </p>
         </div>
       </motion.section>
