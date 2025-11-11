@@ -35,7 +35,7 @@ export const PROJECTS: Project[] = [
       'AI-powered product discovery platform for Asian fashion, with integrated Reddit reviews',
     link: 'https://www.w2cai.com/',
     image:
-      'https://i.imgur.com/RnLQkFz.png',
+      'https://i.imgur.com/1GHY12t.png',
     technologies: 'PostgreSQL, BeautifulSoup, ChatGPT, React, Next.js, Tailwind CSS, TypeScript, Python',
     id: 'project1',
   },
