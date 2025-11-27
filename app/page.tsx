@@ -3,6 +3,7 @@ import { motion } from 'motion/react'
 import { XIcon } from 'lucide-react'
 import { Spotlight } from '@/components/ui/spotlight'
 import { Magnetic } from '@/components/ui/magnetic'
+import Arrow from '@/components/ui/arrow'
 import {
   MorphingDialog,
   MorphingDialogTrigger,
@@ -171,7 +172,8 @@ export default function Personal() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {project.name}
+                    {project.name}{' '}
+                    <Arrow className="inline h-3 w-3 text-zinc-900 dark:text-zinc-50" />
                     <span className="absolute bottom-0.5 left-0 block h-[1px] w-full max-w-0 bg-zinc-900 dark:bg-zinc-50 transition-all duration-200 group-hover:max-w-full"></span>
                   </a>
                   {project.github && (
