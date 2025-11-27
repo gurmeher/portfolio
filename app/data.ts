@@ -39,6 +39,17 @@ export const PROJECTS: Project[] = [
     technologies: 'PostgreSQL, BeautifulSoup, ChatGPT, React, Next.js, Tailwind CSS, TypeScript, Python',
     id: 'project1',
   },
+  {
+    name: 'VIN Blockchain',
+    description:
+      'Lightweight blockchain for car VINs, verifying ownership and vehicle history to prevent vehicle fraud',
+    link: 'https://gurmeher.github.io/vin_blockchain/',
+    image:
+      'https://i.imgur.com/gweeJYB.jpeg',
+    technologies: 'Flask, REST API, Docker, Blockchain, Python',
+    id: 'project2',
+  },
+  
   
 ]
 
