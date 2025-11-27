@@ -44,7 +44,7 @@ export const PROJECTS: Project[] = [
   {
     name: 'VIN Blockchain',
     description:
-      'Lightweight blockchain for car VINs, verifying ownership and vehicle history to prevent vehicle fraud',
+      'Blockchain-backed REST API proof-of-concept for secure VIN history, ownership, and odometer verification',
     link: 'https://gurmeher.github.io/vin_blockchain/',
     image:
       'https://i.imgur.com/gweeJYB.jpeg',
