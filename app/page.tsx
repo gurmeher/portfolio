@@ -164,14 +164,28 @@ export default function Personal() {
                 <ProjectImage src={project.image} alt={project.name} />
               </div>
               <div className="px-1">
-                <a
-                  className="font-base group relative inline-block font-[450] text-zinc-900 dark:text-zinc-50 font-bold"
-                  href={project.link}
-                  target="_blank"
-                >
-                  {project.name}
-                  <span className="absolute bottom-0.5 left-0 block h-[1px] w-full max-w-0 bg-zinc-900 dark:bg-zinc-50 transition-all duration-200 group-hover:max-w-full"></span>
-                </a>
+                <div className="flex items-center justify-between">
+                  <a
+                    className="font-base group relative inline-block font-[450] text-zinc-900 dark:text-zinc-50 font-bold"
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {project.name}
+                    <span className="absolute bottom-0.5 left-0 block h-[1px] w-full max-w-0 bg-zinc-900 dark:bg-zinc-50 transition-all duration-200 group-hover:max-w-full"></span>
+                  </a>
+                  {project.github && (
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ml-3 text-sm font-bold underline text-zinc-900 dark:text-zinc-50"
+                      aria-label={`Open ${project.name} on Github`}
+                    >
+                      (Github)
+                    </a>
+                  )}
+                </div>
                 {project.technologies && (
                   <p className="text-sm text-zinc-900 dark:text-zinc-200">
                     {project.technologies}

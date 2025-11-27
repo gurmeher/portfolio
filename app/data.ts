@@ -2,6 +2,7 @@ type Project = {
   name: string
   description: string
   link: string
+  github?: string
   image: string
   technologies?: string
   id: string
@@ -38,6 +39,7 @@ export const PROJECTS: Project[] = [
       'https://i.imgur.com/1GHY12t.png',
     technologies: 'PostgreSQL, BeautifulSoup, ChatGPT, React, Next.js, Tailwind CSS, TypeScript, Python',
     id: 'project1',
+    github: 'https://github.com/gurmeher/w2cai',
   },
   {
     name: 'VIN Blockchain',
@@ -48,6 +50,7 @@ export const PROJECTS: Project[] = [
       'https://i.imgur.com/gweeJYB.jpeg',
     technologies: 'Flask, REST API, Docker, Blockchain, Python',
     id: 'project2',
+    github: 'https://github.com/gurmeher/vin_blockchain',
   },
   
   
